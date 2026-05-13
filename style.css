@@ -1,0 +1,87 @@
+.profile-card {
+    background-color: white;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #111827;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Estilo Padrão (Light) */
+.profile-card{
+    background-color: white;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #111827;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Versão Purple (ativada pela classe .dark) */
+.dark .profile-card {
+    background-color: #2D1B4E;
+    /* Roxo escuro */
+    border-color: #5B3AAD;
+    /* Borda roxa vibrante */
+    box-shadow: 0 4px 15px rgba(91, 58, 173, 0.4);
+    /* Glow roxo */
+}
+
+.dark .profile-name {
+    color: #E9D5FF;
+    /* Lilás bem claro */
+}
+.dark .profile-description {
+    color: #E9D5FF;
+}
+
+.dark .container {
+    background-color: #1A0B2E;
+    /* Fundo da página em roxo profundo */
+}
